@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff4081;
+    font-size: 40px;
+}
+
+.button {
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff60a3;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    font-size: 24px;
+    color: #3e3e3e;
+    margin-top: 20px;
+}
+
+#cake img, #familyPhoto img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+#balloons {
+    position: relative;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.balloon {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 70px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    animation: floatUp 3s infinite;
+}
+
+@keyframes floatUp {
+    0% {
+        bottom: 0;
+        opacity: 1;
+    }
+    50% {
+        bottom: 150px;
+        opacity: 0.7;
+    }
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}

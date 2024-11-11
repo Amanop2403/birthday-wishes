@@ -1,7 +1,7 @@
 document.getElementById('wishButton').addEventListener('click', function() {
     const messageDiv = document.getElementById('message');
     messageDiv.classList.toggle('hidden');
-    messageDiv.textContent = "To my first friend, my best friend and forever friend!!  Happy Birthday, Mom! 🎉🎂 Stay Blessed, Be happy and Enjoy your life !!!";
+    messageDiv.textContent = "Happy Birthday, Mom! 🎉🎂";
 });
 
 document.getElementById('cakeButton').addEventListener('click', function() {
